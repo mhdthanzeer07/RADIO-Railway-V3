@@ -48,7 +48,7 @@ async def main():
     async with bot:
         await mp.start_radio()
         try:
-            await USER.join_chat("AsmSafone")
+            await USER.join_chat("mhd_thanzeer")
         except UserAlreadyParticipant:
             return
         except Exception as e:
@@ -64,7 +64,7 @@ def stop_and_restart():
 
 bot.run(main())
 bot.start()
-print("\n\nRadio Player Bot Started, Join @AsmSafone!")
+print("\n\nRadio Player Bot Started, Join @mhd_thanzeer!")
 bot.send(
     functions.bots.SetBotCommands(
         commands=[
@@ -176,11 +176,11 @@ async def restart(_, message: Message):
         target=stop_and_restart
         ).start()
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @AsmSafone For More!**")
+        await k.edit("✅ **Restarted Successfully! \nJoin @mhd_thanzeer For More!**")
         await k.reply_to_message.delete()
     except:
         pass
 
 idle()
 bot.stop()
-print("\n\nRadio Player Bot Stopped, Join @AsmSafone!")
+print("\n\nRadio Player Bot Stopped, Join @mhd_thanzeer!")
