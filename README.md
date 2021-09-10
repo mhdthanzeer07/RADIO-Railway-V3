@@ -74,7 +74,7 @@ NOTE: Make Sure You Have Started A Voice Chat In Your Channel/Group Before Deplo
 ## Run On VPS
 
 ```sh
-$ git clone https://github.com/AsmSafone/RadioPlayerV3
+$ git clone https://github.com/mhdthanzeer07/RADIO-Railway-V3
 $ cd RadioPlayerV3
 $ sudo apt-get install python3-pip ffmpeg
 $ pip3 install -U pip
